@@ -1,3 +1,6 @@
+import About from "@/components/About";
+import Collage from "@/components/Collage";
+import List from "@/components/List";
 import Image from "next/image";
 
 export default function Option() {
@@ -14,16 +17,9 @@ export default function Option() {
         </h3>
       </div>
       <section className="mt-16 md:mt-32 w-full">
-        <h2 className="text-2xl sm:text-3xl md:text-5xl font-extrabold text-center">
-          About Us
-        </h2>
-        <p className="text-sm sm:text-md md:text-xl text-center my-10 w-[80%] max-w-[1000px] ml-[50%] translate-x-[-50%]">
-          We provide training in <b>Karate and Mix Martial Arts</b> teaching
-          both beginners and experts. Karate emphasizes discipline and respect
-          alongside physical techniques. Training includes developing focus,
-          breath control and mental strength.
-        </p>
+        <About />
       </section>
+      <List />
     </main>
   );
 }

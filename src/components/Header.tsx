@@ -15,10 +15,10 @@ export default function Header() {
         />
         Unbeatable Fight Club
       </div>
-      <div className="flex gap-6 hidden md:visible">
-        <li className=" text-md font-medium list-none">Pricing</li>
-        <li className=" text-md font-medium list-none">About</li>
-        <li className=" text-md font-medium list-none">Contact</li>
+      <div className="flex gap-6 collapse md:visible">
+        <li className=" text-md  font-medium list-none">Pricing</li>
+        <li className=" text-md  font-medium list-none">About</li>
+        <li className=" text-md  font-medium list-none">Contact</li>
       </div>
     </nav>
   );
