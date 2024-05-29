@@ -5,8 +5,7 @@ export default function HeroSection() {
         <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
           <div>
             <h1 className="block text-2xl font-bold text-gray-800 sm:text-3xl lg:text-5xl lg:leading-tight">
-              Learn self-defence, Karate &{" "}
-              <span className="text-blue-600">Mix Martial Arts</span>
+              #1 Karate Academy in Meerut
             </h1>
             <p className="mt-3 text-lg text-gray-800">
               Check out Unbreakable Fight Club, offering classes in Karate, MMA,
