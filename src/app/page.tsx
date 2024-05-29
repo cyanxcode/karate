@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Option() {
   return (
-    <main className="bg-gradient-to-b from-cyan-300 via-white via-40% to-blue-400">
+    <main className="bg-gradient-to-b from-teal-200 via-white via-36% to-teal-100">
       <Header />
       <section className="py-10 ">
         <HeroSection />
